@@ -90,19 +90,17 @@
 
 
 
-<meta name="description" content="洱海的鱼瞅啥呢！">
+<meta name="description" content="语音交互设计VUI是未来5-10年内最重啊的交互设计方式，和我一起来了解一下VUI设计方法。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="洱海的鱼">
-<meta property="og:url" content="http://yoursite.com/2017/08/27/洱海的鱼/index.html">
+<meta property="og:title" content="VUI设计方法">
+<meta property="og:url" content="http://yoursite.com/2017/10/17/VUI设计基础/index.html">
 <meta property="og:site_name" content="烟雨">
-<meta property="og:description" content="洱海的鱼瞅啥呢！">
+<meta property="og:description" content="语音交互设计VUI是未来5-10年内最重啊的交互设计方式，和我一起来了解一下VUI设计方法。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://ovc2vstc9.bkt.clouddn.com/%E6%B4%B1%E6%B5%B7%E7%9A%84%E9%B1%BC.jpg">
-<meta property="og:updated_time" content="2017-08-27T07:34:36.000Z">
+<meta property="og:updated_time" content="2017-10-17T05:10:47.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="洱海的鱼">
-<meta name="twitter:description" content="洱海的鱼瞅啥呢！">
-<meta name="twitter:image" content="http://ovc2vstc9.bkt.clouddn.com/%E6%B4%B1%E6%B5%B7%E7%9A%84%E9%B1%BC.jpg">
+<meta name="twitter:title" content="VUI设计方法">
+<meta name="twitter:description" content="语音交互设计VUI是未来5-10年内最重啊的交互设计方式，和我一起来了解一下VUI设计方法。">
 
 
 
@@ -130,13 +128,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2017/08/27/洱海的鱼/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/10/17/VUI设计基础/"/>
 
 
 
 
 
-  <title>洱海的鱼 | 烟雨</title>
+  <title>VUI设计方法 | 烟雨</title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -256,7 +254,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/08/27/洱海的鱼/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/10/17/VUI设计基础/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="wangchuancat">
@@ -273,7 +271,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">洱海的鱼</h1>
+          <h1 class="post-title" itemprop="name headline">VUI设计方法</h1>
         
 
         <div class="post-meta">
@@ -285,8 +283,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-27T15:34:03+08:00">
-                2017-08-27
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-17T13:06:30+08:00">
+                2017-10-17
               </time>
             
 
@@ -320,7 +318,16 @@
       
 
       
-        <p>洱海的鱼<br><img src="http://ovc2vstc9.bkt.clouddn.com/%E6%B4%B1%E6%B5%B7%E7%9A%84%E9%B1%BC.jpg" alt="image"><br>瞅啥呢！</p>
+        <p>语音交互设计VUI是未来5-10年内最重啊的交互设计方式，和我一起来了解一下VUI设计方法。<br><a id="more"></a><br>1.流程化分析：语音识别架构的拆解</p>
+<p>第一步：先确定对话场景，再着手设计工作。<br>对话逻辑——从哪里来，到哪里去？<br>如同图形用户界面以点击-触发为各个节点的交互逻辑，VUI也需要一从query到answer的流转逻辑，将一个场景的对话流程流畅的贯穿起来。<br>即便是询问天气这样看上去很简单的对话场景，也可以设计出十分复杂的对话逻辑，根据该场景在你产品中的重要程度决定细节逻辑的粒度。</p>
+<p>第二步：设计语法 ——用户会对你说什么？<br>语法就是用户输入的指令集，对话设计者需要设计对话的意图（Intent），以及尽量考虑用户可能表达方式，将其中最核心、最常用的表达方式提取为指令集模板。设计的指令集越多越全面，对话覆盖率就会越高。<br>想象场景还是查询空气质量，请考虑用户会用怎样的表达方式来提出自己的要求：<br>你只需要提取一些最典型的句式，至于“么”“吗”“呢”这些语气词，或者虚词、助词等，语义理解模块（NLU）会帮忙泛化。</p>
+<p>第三步：设计应答——你要如何回答用户？<br>语音交互中最主要的应答方式是TTS（Text To Speech），就是将设计者写好的应答脚本，通过TTS引擎转化为语音播放出来。应答带给用户最直观的感受，应答的好坏，直接关系到语音产品的体验。<br>鉴于过长的语音内容会增加用户的记忆负载，设计应答时应该尽量简洁。<br>如果你的语音产品具备自己的个性特点，在应答时也请按照该特点的语言风格撰写脚本，保持角色的一致性。<br>例子：<br>A1.询问用户想查询哪里的空气质量<br>A2.反馈没有查到相关地区相关时间的空气质量<br>A3.根据空气质量级别的优劣反馈相应提示</p>
+<p>2.情感化设计：本能、行为、反思。<br>要激发起用户使用语音输入的冲动，需要用情感化设计去打动用户。</p>
+<p>3.无意识原则：To Discover Rather Than Invent。其核心是说去发现本来就在那里但隐而未显的东西，而不是去发明生造。</p>
+<p>4.数据驱动设计(Data-driven Design)<br>    数据驱动的设计是面向用户所遇到的困难的设计。事实上这也是我们在探索时所选的最近的一条道路，我们从线上数据中挖掘出当前识别的问题，并给出一套解决方案，落地到产品中去。</p>
+<p>6功能层——像打字一样好用的语音输入</p>
+<p>1.语音纠错功能<br>语音纠错功能使得从输入、输出到修正的过程形成闭环，用户可以选择不跳出语音输入切回键盘来完成修改。<br>这对需要跳出语音切换回键盘的修改而言，是一个更方便的方案，用户也因此多了一个选择。我们建议两种纠错：指令纠错和自动纠错。<br>(1)指令纠错<br>触发方式<br>(1)指令纠错<br>a、按钮进入纠错模式（与输入识别做区分）<br>b、识别结果上点击文字出候选。<br>c、自动触发（与输入识别不做区分）。<br>推荐第三种<br>第三种触发方式，能够做到输入与修改的无缝切换，用户不必费力思考究竟处在哪种模式。<br>(2)自动纠错<br>自动纠错则是基于理解的改写。用户在用语音输入时会带有一些误表达，如“今天，不对，明天…”，它需要得到改写，自动纠错将省去用户在识别后的修改操作，在触发自动纠错时会提示用户改写结果，如果合适，用户点击即可完成替换，简单方便。<br>2.本地资源匹配<br>打字有通讯录匹配的推荐，语音也应该有。人名往往千差万别，而识别需要依赖普适性。如何正确识别人名是一个问题。<br>3.场景化识别<br>用户在搜索、地图、购物app下说出的语料是有一定领域的。这些不同于聊天的场景，如果有相当可预估的语料文本，那么可以进行识别优化。<br>4.耳语模式<br>用户出于隐私的考虑，不愿在公共场合下使用语音输入。这是语音天然的缺陷，但是我们应当提供一些措施，去满足这些场合的需求。耳语模式就是提供用户小声说话的识别，用户在此模式下，可以应对一些不能大声说话的场合。</p>
+<p>7.特殊机制<br>目的是希望带来用户行为的变化、调节用户心理情绪以及辅助识别优化。<br>1.用户学习机制<br>①我们可以通过一些tip去告诉用户哪里错了。一方面消解用户对未知错误的恐惧，另一方面也实现了用户的一次自我学习。<br>②游戏方式龙舟竞赛游戏。用户通过语音控制龙舟。<br>2.反馈机制<br>个性化反馈：用户有一些自造词或个人的习惯用语，用户通过反馈，实现个性化识别。<br>普适性反馈：一些地方方言易识别错，通过用户反馈，可以更快地收集带口音识别的数据，实现口音识别自适应技术的优化迭代。</p>
 
       
     </div>
@@ -357,14 +364,18 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2017/10/17/智库2861/" rel="next" title="智库2861">
+                <i class="fa fa-chevron-left"></i> 智库2861
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/10/11/双钻石设计方法/" rel="prev" title="文章翻译-双钻石模型">
-                文章翻译-双钻石模型 <i class="fa fa-chevron-right"></i>
+              <a href="/2017/10/17/一款智能儿童机器人的市场调研及用户研究/" rel="prev" title="一款智能儿童机器人的市场调研及用户研究">
+                一款智能儿童机器人的市场调研及用户研究 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
